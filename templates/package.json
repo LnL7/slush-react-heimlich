@@ -1,0 +1,23 @@
+{
+  "name": "<%= name %>",
+  "private": true,
+  "dependencies": {
+    "babel": "^4.7.3",
+    "koa": "^0.18.1",
+    "koa-logger": "^1.2.2",
+    "koa-static": "^1.4.9",
+    "react": "^0.12.2",
+    "react-document-title": "^1.0.2",
+    "react-router": "^0.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.2.2",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "heimlich": "git://github.com/romeovs/heimlich",
+    "run-sequence": "^1.0.2"
+  }
+}
